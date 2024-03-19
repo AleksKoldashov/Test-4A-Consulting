@@ -6,8 +6,7 @@ export default function Card2(item) {
     const name = item.item.name
     const popular = item.item.isPopular
     const price = item.item.price
-    const endless = item.item.isEndless
-    const discont = item.item.isDiscount
+
        
     return popular 
     ? 

@@ -6,7 +6,6 @@ export default function CardSale(item) {
  const name = item.item.name
  const popular = item.item.isPopular
  const price = item.item.price
- const endless = item.item.isEndless
  const discont = item.item.isDiscount
  
  
@@ -19,9 +18,9 @@ export default function CardSale(item) {
            </>
            : 
            price > 6000 ? <></> : <> 
-           <a className='card-sale'>
+           <a className='card-sale' href="/#">
               <div className="header-card">
-                <span>{name.toUpperCase()}</span> <input readOnly type='radio'/>
+                <span>{name.toUpperCase()}</span> <input defaultValue type='radio'/>
               </div>
            <hr className='line' />
            <h1>{price}₽</h1>
