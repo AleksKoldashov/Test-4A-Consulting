@@ -10,11 +10,11 @@ const price = item.item.price
         ? 
         price < 3000  
         ? 
-        <a className='card-1' href="/#">
+        <div className='card-1'>
         <span>{name.toUpperCase()}</span>
         <h1>{price}₽</h1>
         <h3>Чтобы просто начать 👍🏻</h3>     
-        </a> 
+        </div> 
         : 
         <></>
         :

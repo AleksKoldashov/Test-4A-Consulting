@@ -17,11 +17,11 @@ const discont = item.item.isDiscount
             ? 
             <></> 
             :
-            <> <a className='card-1' href="/#">
+            <> <div className='card-1'>
             <span>{name}</span>
             <h1>{price}₽</h1>
             <h3>Чтобы просто начать 👍🏻</h3>
-            </a> </>
+            </div> </>
         : 
         <></>
         ) 
