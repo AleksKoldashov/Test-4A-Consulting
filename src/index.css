@@ -1,13 +1,27 @@
 body {
+  background-color: rgba(245, 247, 247, 1);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "PT-Root-UI_Regular";
+  src: url("./fonts/ptrootui/PT-Root-UI_Regular.ttf");
+}
+
+@font-face {
+  font-family: "BebasNeue_Bold";
+  src: url("./fonts/bebasneue/BebasNeue\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "BebasNeue_Light";
+  src: url("./fonts/bebasneue/BebasNeue\ Light.ttf");
+}
+@font-face {
+  font-family: "BebasNeue_Bold";
+  src: url("./fonts/bebasneue/BebasNeue\ Bold.ttf");
+}
+@font-face {
+  font-family: "Rubik-Bold";
+  src: url("./fonts/Rubik/static/Rubik-Bold.ttf");
 }

@@ -1,0 +1,189 @@
+@media (min-width: 901px) {
+    .min{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        align-items: flex-end;
+        font-size: 16px; 
+        color:rgba(129, 135, 152, 1);
+    }
+    .sec{
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;
+        font-size: 16px; 
+        color:rgba(129, 135, 152, 1);
+    }
+    .item-1-1{
+        color:rgba(1, 185, 197, 1); 
+        margin-bottom: 15px; 
+        margin-left: 7px;
+    }
+    
+    .item-1-2{
+        margin-left: 17px;
+        padding-top: 5px;
+    }
+    .item-1{
+        height:  79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "PT-Root-UI_Regular";
+        background-color: white;
+        width: 100%;
+    }
+    
+    .item-1 span{
+        font-size: 60px;
+        color: rgba(1, 185, 197, 1);
+        font-weight: 400;
+        margin-left: 20px;
+        font-family: "BebasNeue_Bold";
+    }
+    
+    .blink{
+        display: flex;
+        font-size: 60px;
+        animation: blink 2s infinite;
+        padding-bottom: 15px;
+        margin-left: 20px;
+        color: #FD4D35;
+    }
+    @keyframes blink {
+        from { opacity: 1; }
+        to { opacity: 0; }
+       }
+
+}
+
+
+@media (min-width: 426px) and (max-width: 900px) {
+    .min{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        align-items: flex-end;
+        font-size: 16px; 
+        color:rgba(129, 135, 152, 1);
+    }
+    .sec{
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;
+        font-size: 16px; 
+        color:rgba(129, 135, 152, 1);
+    }
+    .item-1-1{
+        color:rgba(1, 185, 197, 1); 
+        margin-bottom: 15px; 
+        margin-left: 7px;
+    }
+    
+    .item-1-2{
+        margin-left: 17px;
+        padding-top: 5px;
+    }
+    .item-1{
+       padding-left: 125px;
+        height:  79px;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "PT-Root-UI_Regular";
+        background-color: white;
+        width: 801px;
+    }
+    
+    .item-1 span{
+        font-size: 60px;
+        color: rgba(1, 185, 197, 1);
+        font-weight: 400;
+        margin-left: 20px;
+        font-family: "BebasNeue_Bold";
+    }
+    
+    .blink{
+        display: flex;
+        font-size: 60px;
+        animation: blink 2s infinite;
+        padding-bottom: 15px;
+        margin-left: 20px;
+        color: #FD4D35;
+    }
+    @keyframes blink {
+        from { opacity: 1; }
+        to { opacity: 0; }
+       }
+
+}
+
+
+@media (max-width: 425px) {
+   
+    .min{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        align-items: flex-end;
+        font-size: 14px; 
+        color:rgba(129, 135, 152, 1);
+    }
+    .sec{
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;
+        font-size: 14px; 
+        color:rgba(129, 135, 152, 1);
+    }
+    .item-1-1{
+        color:rgba(1, 185, 197, 1); 
+        margin-bottom: 15px; 
+        margin-left: 7px;
+    }
+    
+    .item-1-2{
+        font-size: 20px;
+        margin-left: 7px;
+        margin-top: 22px;
+    }
+    .item-1{
+        height:  79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        min-width: 370px;
+        font-family: "PT-Root-UI_Regular";
+        background-color: white;
+    }
+    
+    .item-1 span{
+        font-size: 40px;
+        color: rgba(1, 185, 197, 1);
+        font-weight: 400;
+        margin-left: 20px;
+        font-family: "BebasNeue_Bold";
+    }
+    
+    .blink{
+        display: flex;
+        font-size: 60px;
+        animation: blink 2s infinite;
+        padding-bottom: 15px;
+        margin-left: 20px;
+        color: #FD4D35;
+    }
+    @keyframes blink {
+        from { opacity: 1; }
+        to { opacity: 0; }
+       }
+
+}
+
+
+

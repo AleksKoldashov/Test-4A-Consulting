@@ -1,0 +1,136 @@
+@media (min-width: 901px) {
+    .card-1{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: rgba(45, 50, 66, 1);
+        width: 177px;
+        height: 261px;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 20px;
+        outline: 3px solid rgba(211, 214, 221, 1);
+        padding: 5px;
+    }
+    .card-1:hover{
+        outline: 3px solid #01B9C5;
+        background-color: rgba(1, 185, 197, 0.05);
+    }
+    .card-1 span{
+        color: rgba(104, 112, 120, 1);
+        margin-top: 10px;
+        margin-left: 40px;
+        font-size: 30px;
+        font-family: 'BebasNeue_Light';
+        font-weight: 400;
+    }
+    .card-1 h1{
+            font-weight: 700;
+            font-size: 50px;
+            margin: 20px;
+            font-family: "PT-Root-UI_Regular";
+    }
+  
+    .card-1 h3{
+        display: flex;
+        text-align: center;
+        width: 100px;
+        font-weight: 500;
+        font-size: 16px;
+        margin: auto;
+    }
+}
+@media (min-width: 426px) and (max-width: 900px) {
+    .card-1{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: rgba(45, 50, 66, 1);
+        width: 150px;
+        height: 261px;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 20px;
+        outline: 3px solid rgba(211, 214, 221, 1);
+        padding: 5px;
+    }
+    .card-1:hover{
+        outline: 3px solid #01B9C5;
+        background-color: rgba(1, 185, 197, 0.05);
+    }
+    .card-1 span{
+        color: rgba(104, 112, 120, 1);
+        margin-top: 10px;
+        margin-left: 40px;
+        font-size: 30px;
+        font-family: 'BebasNeue_Light';
+        font-weight: 400;
+    }
+    .card-1 h1{
+            font-weight: 700;
+            font-size: 40px;
+            margin: 20px;
+            font-family: "PT-Root-UI_Regular";
+    }
+  
+    .card-1 h3{
+        display: flex;
+        text-align: center;
+        width: 100px;
+        margin: auto;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media (max-width: 425px) {
+    .card-1{
+        display: flex;
+        background-color: white;
+        color: rgba(45, 50, 66, 1);
+        width:335px;
+        height: 140px;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 20px;
+        outline: 3px solid rgba(211, 214, 221, 1);
+        padding: 5px;
+    }
+    .card-1:hover{
+        outline: 3px solid #01B9C5;
+        background-color: rgba(1, 185, 197, 0.05);
+    }
+    .card-1 span{
+        position: relative;
+        top: 20px;
+        left: 5px;
+        color: rgba(104, 112, 120, 1);
+        font-size: 24px;
+        font-family:  "BebasNeue_Bold";
+        font-weight: 400;
+        width: 140px;
+        height: 20px;
+    }
+    .card-1 h1{
+            position: relative;
+            top:10px;
+            left: 15px;
+            font-weight: 700;
+            font-size: 44px;
+            font-family: "PT-Root-UI_Regular";
+    }
+
+    .card-1 h3{
+        font-weight: 500;
+        font-size: 16px;
+        position: relative;
+        top: 50px;
+        left: -250px;
+        margin-left: 50px;
+        width: 120px;
+    }
+}
+
